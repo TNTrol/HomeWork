@@ -1,7 +1,7 @@
 #define SIZE 3
 
 void setup() {
-    for(int i = 0; i < SIZE; i++)
+    for(int i = 1; i <= SIZE; i++)
         pinMode(i,OUTPUT);
 }
 
